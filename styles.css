@@ -5,6 +5,7 @@
     background-color: red; 
     width: 500px; 
     height: 500px;
+    border-radius: 50%;
   }
 
   .ojo {
@@ -13,6 +14,7 @@
     background-color:white;
     width: 80px; 
     height: 80px;
+    border-radius: 50%;
   }
 
   .ojo--izquierdo {
@@ -30,4 +32,39 @@
   background-color: black; 
   width:20px; 
   height:20px;
+  border-radius: 50%;
+  }
+
+  .nariz {
+    position: absolute;
+    top: 50%;
+    left: 225px;
+    background-color: pink;
+    width: 50px;
+    height: 20px;
+    border-radius: 10px;
+  }
+
+  .boca {
+    position: absolute;
+    bottom: 20%;
+    left: 150px;
+    background-color: white;
+    width: 200px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  .dientes {
+    position: absolute;
+    background-color: black;
+    width: 20px;
+    height: 40px;
+  }
+
+  .diente--izquierdo {
+    left: 50%;
+    top: 0;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
   }
